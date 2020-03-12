@@ -1,20 +1,20 @@
-import React from 'react';
-import {Text, StyleSheet, View} from 'react-native';
+import React from "react";
+import { Text, StyleSheet, View } from "react-native";
 
 const ComponentsScreen = () => {
-    const greeting = "Hi there!"
-    return (
-        <View>
-            <Text style={styles.textStyle}>This is the ComponentsScreenf ffa.</Text>
-            <Text>{greeting}</Text>
-        </View> 
-    )
-}
+  const greeting = "Hi there!";
+  return (
+    <View>
+      <Text style={styles.textStyle}>This is the ComponentsScreenf ffa.</Text>
+      <Text>{greeting}</Text>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
-    textStyle: {
-        fontSize: 30
-    }
-})
+  textStyle: {
+    fontSize: 30
+  }
+});
 
 export default ComponentsScreen;
