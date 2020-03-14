@@ -12,9 +12,11 @@ const HomeScreen = ({navigation}) => {
       <TouchableOpacity onPress={() => navigation.navigate('List')}>
         <Text>Go to list demo</Text>
       </TouchableOpacity>
-      
       <TouchableOpacity onPress={() => navigation.navigate('Image')}>
         <Text>Go to image demo</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('Counter')}>
+        <Text>Go to counter demo</Text>
       </TouchableOpacity>
     </View>
   );
